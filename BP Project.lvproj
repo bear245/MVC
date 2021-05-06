@@ -1,5 +1,15 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
+	<Property Name="varPersistentID:{56109072-B057-45C7-84E3-4547B9D05F49}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/Stop Target</Property>
+	<Property Name="varPersistentID:{6928C6BE-A1A1-4757-8FE4-AC63C34989F5}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Target to Host/Status RT.NW</Property>
+	<Property Name="varPersistentID:{8665FC0C-4FE7-41EA-A1B4-581D33C1482B}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Host to Target/Stop Target.NW</Property>
+	<Property Name="varPersistentID:{89964BC6-BC8F-401F-AA3A-4ADC22805F18}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/Status TCL2</Property>
+	<Property Name="varPersistentID:{AA768185-C0CB-4E8B-B9D2-F3ABEC1640DC}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/Status TCL2</Property>
+	<Property Name="varPersistentID:{ABCD41C3-87FA-4597-B2D7-6FD580CD60A5}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/Status TCL1</Property>
+	<Property Name="varPersistentID:{BBDB79DE-88ED-4664-B4D8-2E42E22051CE}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/Status TCL1</Property>
+	<Property Name="varPersistentID:{DB7932CA-5176-4C67-A1A6-B453CD240ECE}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/Stop Target</Property>
+	<Property Name="varPersistentID:{ECA30FB8-06D5-44C4-B14F-E74361868674}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Target to Host/Status RT.NW</Property>
+	<Property Name="varPersistentID:{F1E3670C-A4E7-4FE0-8578-64791C69A1EE}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Host to Target/Stop Target.NW</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -77,6 +87,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_report.lvclass"/>
 				<Item Name="NI_ReportGenerationCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_ReportGenerationCore.lvlib"/>
 				<Item Name="NI_ReportGenerationToolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_office/NI_ReportGenerationToolkit.lvlib"/>
@@ -138,7 +149,7 @@
 	</Item>
 	<Item Name="RT PXI Target" Type="RT PXI Chassis">
 		<Property Name="alias.name" Type="Str">RT PXI Target</Property>
-		<Property Name="alias.value" Type="Str">169.254.147.30</Property>
+		<Property Name="alias.value" Type="Str">169.254.147.32</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -213,7 +224,18 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="src" Type="Folder">
+			<Item Name="RT Loop Status.ctl" Type="VI" URL="../src/Real-Time/RT Loop Status.ctl"/>
+			<Item Name="RT Loop Status.vi" Type="VI" URL="../src/Real-Time/RT Loop Status.vi"/>
+			<Item Name="RT Status.ctl" Type="VI" URL="../src/Real-Time/RT Status.ctl"/>
+			<Item Name="RT Variables.lvlib" Type="Library" URL="../src/Real-Time/RT Variables.lvlib"/>
+		</Item>
+		<Item Name="RT Target.vi" Type="VI" URL="../src/Real-Time/RT Target.vi"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
