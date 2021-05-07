@@ -136,6 +136,7 @@
 			<Item Name="Burst_AOM_Calc.vi" Type="VI" URL="../src/SubVIs/Burst_AOM_Calc.vi"/>
 			<Item Name="Burst_DOM_Calc.vi" Type="VI" URL="../src/SubVIs/Burst_DOM_Calc.vi"/>
 			<Item Name="Burst_Result.ctl" Type="VI" URL="../src/TypeDefs/Burst_Result.ctl"/>
+			<Item Name="Controller Update Data.ctl" Type="VI" URL="../src/Controller/Controls/Controller Update Data.ctl"/>
 			<Item Name="DAQ data.ctl" Type="VI" URL="../src/TypeDefs/DAQ data.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
