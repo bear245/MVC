@@ -5,31 +5,45 @@
 	<Property Name="varPersistentID:{1A29B4A6-B47E-46B2-A989-CE06AEBB3FA1}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/DOM.timestamp</Property>
 	<Property Name="varPersistentID:{1B037B98-B26B-4090-A4BA-53D30002CA12}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/DIM.data</Property>
 	<Property Name="varPersistentID:{1D7D0500-2311-4703-B936-3A75E99ED351}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/DIM.timestamp</Property>
-	<Property Name="varPersistentID:{38FE9342-C14A-42B4-96EA-CC9A1EDC1D13}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/AOM.data</Property>
+	<Property Name="varPersistentID:{213D56EA-F143-4785-93BF-958CCEF316CD}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Target to Host/AOM.data.NW</Property>
+	<Property Name="varPersistentID:{27737B6A-9CD2-49B0-92EB-8A7965C7E291}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Target to Host/TimeStamps.NW</Property>
+	<Property Name="varPersistentID:{2B751F02-3325-4E1D-9789-2389173858D3}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Host to Target/RT Command</Property>
+	<Property Name="varPersistentID:{38FE9342-C14A-42B4-96EA-CC9A1EDC1D13}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/AOM.Data</Property>
 	<Property Name="varPersistentID:{3A12D97E-184A-45B3-9A2D-323B1795ADC4}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/AOM.Data</Property>
+	<Property Name="varPersistentID:{4ABA7C0B-A687-40C1-8936-1AE590E6D112}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Host to Target/DIM.data.NW</Property>
+	<Property Name="varPersistentID:{54E00057-BFE3-4B8C-81B6-54A866956D31}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Target to Host/TimeStamps.NW</Property>
 	<Property Name="varPersistentID:{56109072-B057-45C7-84E3-4547B9D05F49}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/Stop Target</Property>
 	<Property Name="varPersistentID:{6928C6BE-A1A1-4757-8FE4-AC63C34989F5}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Target to Host/Status RT.NW</Property>
+	<Property Name="varPersistentID:{69B34B2B-3281-44BE-B73A-D583EC242FEB}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Target to Host/AOM.data.NW</Property>
 	<Property Name="varPersistentID:{795C4CB8-B54C-498F-B499-E4B4A5F236FD}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/DIM.timestamp</Property>
+	<Property Name="varPersistentID:{80ABD22A-4BCA-40F0-BF8C-53D578AEA630}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Host to Target/AIMC.data.NW</Property>
 	<Property Name="varPersistentID:{8665FC0C-4FE7-41EA-A1B4-581D33C1482B}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Host to Target/Stop Target.NW</Property>
 	<Property Name="varPersistentID:{89964BC6-BC8F-401F-AA3A-4ADC22805F18}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/Status TCL2</Property>
 	<Property Name="varPersistentID:{94495FF4-A16F-477F-AEF4-E4637A41DD88}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/AIMC.data</Property>
 	<Property Name="varPersistentID:{97822E4D-074A-42E1-9345-087EA46503A8}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/AOM.timestamp</Property>
-	<Property Name="varPersistentID:{991B3E83-1787-4CA7-B0DA-9D3D895378EE}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/DOM.data</Property>
+	<Property Name="varPersistentID:{991B3E83-1787-4CA7-B0DA-9D3D895378EE}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/DOM.Data</Property>
+	<Property Name="varPersistentID:{9B363C32-9FF6-4D98-BEE6-704DBF21A0F2}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Target to Host/DOM.data.NW</Property>
 	<Property Name="varPersistentID:{9BCF8853-4448-4178-AAAF-6C33D1E9D97C}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/DOM.timestamp</Property>
+	<Property Name="varPersistentID:{A2A22E94-08AF-4467-9F36-CE9FF1998F90}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Host to Target/DIM.data.NW</Property>
 	<Property Name="varPersistentID:{A68AF226-916B-46F8-8F6E-3BC5DA7902E6}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/AIMV.timestamp</Property>
 	<Property Name="varPersistentID:{AA768185-C0CB-4E8B-B9D2-F3ABEC1640DC}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/Status TCL2</Property>
 	<Property Name="varPersistentID:{ABCD41C3-87FA-4597-B2D7-6FD580CD60A5}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/Status TCL1</Property>
 	<Property Name="varPersistentID:{BBDB79DE-88ED-4664-B4D8-2E42E22051CE}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/Status TCL1</Property>
 	<Property Name="varPersistentID:{BF2F8197-C661-4784-9807-FA8B89F559AD}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/DIM.data</Property>
+	<Property Name="varPersistentID:{C5222940-33B9-4E78-ADAE-121B4CB34FB0}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Host to Target/AIMC.data.NW</Property>
 	<Property Name="varPersistentID:{C6A694B9-199F-4A11-BFDE-D8E30F81838A}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/AIMC.timestamp</Property>
 	<Property Name="varPersistentID:{C6E94B7A-DCD0-4DF6-A990-C1A26A308260}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/AIMV.timestamp</Property>
 	<Property Name="varPersistentID:{C7EEF844-692F-485E-AA46-9B9127159E4C}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/DOM.Data</Property>
 	<Property Name="varPersistentID:{CB59146D-4052-42D1-A5CE-DC948A9D770B}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/AIMV.data</Property>
+	<Property Name="varPersistentID:{D6607CFC-9250-4B73-A158-84B5F6114954}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Target to Host/DOM.data.NW</Property>
+	<Property Name="varPersistentID:{D688AC11-7D3D-4895-BBBF-099E31914742}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Host to Target/AIMV.data.NW</Property>
 	<Property Name="varPersistentID:{DB7932CA-5176-4C67-A1A6-B453CD240ECE}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Interprocess/Stop Target</Property>
+	<Property Name="varPersistentID:{E7F22A60-39A0-4098-9BC9-1F2ED3E751DE}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Host to Target/RT Command</Property>
 	<Property Name="varPersistentID:{EAFD1968-80C7-41F1-A0E3-0A86921845C0}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/AIMV.data</Property>
 	<Property Name="varPersistentID:{ECA30FB8-06D5-44C4-B14F-E74361868674}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Target to Host/Status RT.NW</Property>
 	<Property Name="varPersistentID:{F1E3670C-A4E7-4FE0-8578-64791C69A1EE}" Type="Ref">/RT PXI Target/src/RT Variables.lvlib/Host to Target/Stop Target.NW</Property>
 	<Property Name="varPersistentID:{FAB0E162-EF19-463F-A08A-0E56E2824598}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Interprocess/AIMC.data</Property>
+	<Property Name="varPersistentID:{FE864664-47AA-44E1-82F6-4EF99368C8E2}" Type="Ref">/My Computer/src/Real-Time/RT Variables.lvlib/Host to Target/AIMV.data.NW</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -281,6 +295,7 @@
 				<Item Name="EventData.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/EventData.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
@@ -320,6 +335,7 @@
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
@@ -438,6 +454,7 @@ AddOutputFilter chunkFilter
 			<Item Name="RT Loop Status.ctl" Type="VI" URL="../src/Real-Time/RT Loop Status.ctl"/>
 			<Item Name="RT Loop Status.vi" Type="VI" URL="../src/Real-Time/RT Loop Status.vi"/>
 			<Item Name="RT Status.ctl" Type="VI" URL="../src/Real-Time/RT Status.ctl"/>
+			<Item Name="RT Variables Init.vi" Type="VI" URL="../src/Real-Time/RT Variables Init.vi"/>
 			<Item Name="RT Variables.lvlib" Type="Library" URL="../src/Real-Time/RT Variables.lvlib"/>
 		</Item>
 		<Item Name="RT Target.vi" Type="VI" URL="../src/Real-Time/RT Target.vi"/>
@@ -630,7 +647,9 @@ AddOutputFilter chunkFilter
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
 				<Item Name="DTbl Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Uncompress Digital.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
+				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
