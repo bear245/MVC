@@ -357,20 +357,20 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Burst_AOM_Calc.vi" Type="VI" URL="../src/SubVIs/Burst_AOM_Calc.vi"/>
-			<Item Name="Burst_DOM_Calc.vi" Type="VI" URL="../src/SubVIs/Burst_DOM_Calc.vi"/>
-			<Item Name="Burst_Result.ctl" Type="VI" URL="../src/TypeDefs/Burst_Result.ctl"/>
-			<Item Name="DAQ data.ctl" Type="VI" URL="../src/TypeDefs/DAQ data.ctl"/>
+			<Item Name="Burst_AOM_Calc.vi" Type="VI" URL="../src/Classes/SubVIs/Burst_AOM_Calc.vi"/>
+			<Item Name="Burst_DOM_Calc.vi" Type="VI" URL="../src/Classes/SubVIs/Burst_DOM_Calc.vi"/>
+			<Item Name="Burst_Result.ctl" Type="VI" URL="../src/Classes/TypeDefs/Burst_Result.ctl"/>
+			<Item Name="DAQ data.ctl" Type="VI" URL="../src/Classes/TypeDefs/DAQ data.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Pass_Fail_Message.vi" Type="VI" URL="../src/SubVIs/Pass_Fail_Message.vi"/>
-			<Item Name="Resp_AOM_Prep.vi" Type="VI" URL="../src/SubVIs/Resp_AOM_Prep.vi"/>
-			<Item Name="Resp_DOM_Prep.vi" Type="VI" URL="../src/SubVIs/Resp_DOM_Prep.vi"/>
-			<Item Name="RespT_Results.ctl" Type="VI" URL="../src/TypeDefs/RespT_Results.ctl"/>
+			<Item Name="Pass_Fail_Message.vi" Type="VI" URL="../src/Classes/SubVIs/Pass_Fail_Message.vi"/>
+			<Item Name="Resp_AOM_Prep.vi" Type="VI" URL="../src/Classes/SubVIs/Resp_AOM_Prep.vi"/>
+			<Item Name="Resp_DOM_Prep.vi" Type="VI" URL="../src/Classes/SubVIs/Resp_DOM_Prep.vi"/>
+			<Item Name="RespT_Results.ctl" Type="VI" URL="../src/Classes/TypeDefs/RespT_Results.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
