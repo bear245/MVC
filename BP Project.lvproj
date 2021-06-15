@@ -451,6 +451,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="src" Type="Folder">
+			<Item Name="RT Array Log.vi" Type="VI" URL="../src/Real-Time/RT Array Log.vi"/>
 			<Item Name="RT Loop Status.ctl" Type="VI" URL="../src/Real-Time/RT Loop Status.ctl"/>
 			<Item Name="RT Loop Status.vi" Type="VI" URL="../src/Real-Time/RT Loop Status.vi"/>
 			<Item Name="RT Status.ctl" Type="VI" URL="../src/Real-Time/RT Status.ctl"/>
