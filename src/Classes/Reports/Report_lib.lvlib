@@ -4,9 +4,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="CSV.lvclass" Type="LVClass" URL="../CSV/CSV.lvclass"/>
-	<Item Name="JSON.lvclass" Type="LVClass" URL="../JSON/JSON.lvclass"/>
 	<Item Name="Log.lvclass" Type="LVClass" URL="../Log/Log.lvclass"/>
 	<Item Name="TDMS.lvclass" Type="LVClass" URL="../TDMS/TDMS.lvclass"/>
-	<Item Name="XLS.lvclass" Type="LVClass" URL="../XLS/XLS.lvclass"/>
 </Library>
